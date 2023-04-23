@@ -143,3 +143,16 @@ a {
 .show-section{
     display: block;
 }
+
+/** Creator section*/
+
+.creator{
+    position: fixed;
+    bottom: 50px;
+}
+
+.creatorA{
+    color: white;
+    font-size: 18px;
+    font-weight: bold;
+}
