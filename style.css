@@ -147,12 +147,50 @@ a {
 /** Creator section*/
 
 .creator{
-    position: fixed;
-    bottom: 50px;
+    width: 100%;
+    position: absolute;
+    text-align: center;
+    top: 90%;
 }
 
 .creatorA{
     color: white;
     font-size: 18px;
     font-weight: bold;
+}
+
+
+/** Media queries */
+
+@media screen and (max-width: 760px) {
+
+    body{
+        padding: 0 2%;
+    }
+
+    p{
+        line-height: 1.1rem;
+    }
+
+    .mt{
+        margin-top: 15px;
+    }
+
+    .rating-nums{
+        margin-left: 5px;
+    }
+
+    .rating-nums li a{
+        width: 42px;
+        height: 42px;
+    }
+
+    .submit{
+        padding: 12px;
+    }
+
+    .creatorA{
+        font-size: 15px;
+    }
+
 }
